@@ -7,7 +7,7 @@ if all the modules installed. Docker and redis are running.
 start front end in the frontend folder with npm start.
 
 
-Tech Requirements
+# Tech Requirements
 Node back end                                                                                 - DONE
 Microservice architecture                                                                     - DONE
 http                                                                                         - DONE
@@ -45,7 +45,7 @@ All services run as docker containers                                           
 Single docker compose file                                                             - DONE IN DEPLOYMENT BRANCH
 If you get it running on ec2: Extra credit                      -NO BUT TRIED
 
-Base architecture requirements
+# Base architecture requirements
 Assume all services are clusterizable
 User service (auth)                                                                      - DONE
 user collection                                                                            - DONE
@@ -53,7 +53,7 @@ Notification service (real time updates)                                        
 holds ws connections                                                                      - DONE
 alert via redis pubsub                                                                    - DONE
 
-transaction service                                                                          - DONE
+# Transaction service                                                                          - DONE
 Store transactions when user purchases something in mongodb                               - DONE
 who bought it 
 what it was                                                                                - DONE
@@ -68,13 +68,13 @@ kafka consumer                                                                  
 send email to user                                                                      - DONE
 
 
-Seller
+# Seller
 Has inventory management                                                                  - DONE
 box to enter an item                                                                      - DONE
 Shows sales
 only their own
 
-Buyer
+# Buyer
 show catalog                                                                               - DONE
 every item from every seller                                                              - DONE
 okay to display if not logged in                                                          - DONE
@@ -84,6 +84,7 @@ fancier would be a cart                                                         
 show purchase history                                                                  - DONE(KIND OF)
 Show item pages                                                                          - DONE
 
+# 
 item has its own detail page                                                             - DONE
 show how many people are viewing an item (real time)                                     - DONE
 Websocket                                                                                - DONE
