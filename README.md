@@ -1,7 +1,8 @@
 # final-project-pickle-rick
-final-project-pickle-rick created by GitHub Classroom
-if all the modules installed, docker and redis are running, start backend with pm2 start process.config.js
-start front end in the frontend folder with npm start.
+
+- final-project-pickle-rick created by GitHub Classroom
+- Marketplace is online shopping application where buyers and sellers can buy and sell products.
+- if all the modules installed, docker and redis are running, start backend with pm2 start process.config.js, start front end in the frontend folder with npm start.
 
 # Tech Requirements
 - Node back end, Microservice architecture, http, GET, only url, POST, url+body, 
